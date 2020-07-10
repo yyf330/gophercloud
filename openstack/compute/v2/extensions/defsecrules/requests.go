@@ -3,8 +3,8 @@ package defsecrules
 import (
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // List will return a collection of default rules.

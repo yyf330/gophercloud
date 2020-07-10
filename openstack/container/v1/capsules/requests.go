@@ -1,8 +1,8 @@
 package capsules
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // CreateOptsBuilder is the interface options structs have to satisfy in order

@@ -1,8 +1,8 @@
 package sharetypes
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // ShareType contains all the information associated with an OpenStack

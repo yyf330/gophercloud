@@ -5,12 +5,12 @@ package portsbinding
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/portsbinding"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	networking "github.com/yyf330/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/portsbinding"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/ports"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestPortsbindingCRUD(t *testing.T) {

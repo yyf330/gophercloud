@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/quotasets"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud/openstack/blockstorage/extensions/quotasets"
+	th "github.com/yyf330/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/testhelper/client"
 )
 
 func TestGet(t *testing.T) {

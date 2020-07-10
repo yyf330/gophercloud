@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/attachments"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/openstack/blockstorage/v3/attachments"
+	th "github.com/yyf330/gophercloud/testhelper"
+	fake "github.com/yyf330/gophercloud/testhelper/client"
 )
 
 var (

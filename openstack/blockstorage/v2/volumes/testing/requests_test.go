@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumetenants"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud/openstack/blockstorage/extensions/volumetenants"
+	"github.com/yyf330/gophercloud/openstack/blockstorage/v2/volumes"
+	"github.com/yyf330/gophercloud/pagination"
+	th "github.com/yyf330/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/testhelper/client"
 )
 
 func TestListWithExtensions(t *testing.T) {

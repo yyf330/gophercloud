@@ -1,8 +1,8 @@
 package users
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // User represents a user resource that exists on the API.

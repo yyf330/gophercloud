@@ -1,7 +1,7 @@
 package migrate
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/yyf330/gophercloud"
 )
 
 // MigrateResult is the response from a Migrate operation. Call its ExtractErr

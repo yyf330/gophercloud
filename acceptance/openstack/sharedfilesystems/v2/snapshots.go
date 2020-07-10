@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/snapshots"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/openstack/sharedfilesystems/v2/snapshots"
 )
 
 // CreateSnapshot will create a snapshot from the share ID with a name. An error will

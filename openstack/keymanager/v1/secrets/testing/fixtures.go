@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/keymanager/v1/secrets"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud/openstack/keymanager/v1/secrets"
+	th "github.com/yyf330/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/testhelper/client"
 )
 
 // ListResponse provides a single page of RESOURCE results.

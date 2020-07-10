@@ -5,11 +5,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/compute/v2/extensions/floatingips"
+	"github.com/yyf330/gophercloud/openstack/compute/v2/servers"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestFloatingIPsCreateDelete(t *testing.T) {

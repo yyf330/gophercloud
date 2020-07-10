@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	fake "github.com/yyf330/gophercloud/openstack/networking/v2/common"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
+	"github.com/yyf330/gophercloud/pagination"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestList(t *testing.T) {

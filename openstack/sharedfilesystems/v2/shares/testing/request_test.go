@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/shares"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud/openstack/sharedfilesystems/v2/shares"
+	th "github.com/yyf330/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/testhelper/client"
 )
 
 func TestCreate(t *testing.T) {

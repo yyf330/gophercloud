@@ -1,6 +1,6 @@
 package siteconnections
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yyf330/gophercloud"
 
 const (
 	rootPath     = "vpn"

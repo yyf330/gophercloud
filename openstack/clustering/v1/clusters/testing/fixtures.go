@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/clusters"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud/openstack/clustering/v1/clusters"
+	th "github.com/yyf330/gophercloud/testhelper"
+	fake "github.com/yyf330/gophercloud/testhelper/client"
 )
 
 const ClusterResponse = `

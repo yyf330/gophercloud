@@ -1,8 +1,8 @@
 package groups
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // ListOpts allows the filtering and sorting of paginated collections through

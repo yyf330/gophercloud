@@ -1,6 +1,6 @@
 package rescueunrescue
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yyf330/gophercloud"
 
 type commonResult struct {
 	gophercloud.Result

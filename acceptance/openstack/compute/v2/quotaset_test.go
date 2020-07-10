@@ -7,12 +7,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/quotasets"
-	"github.com/gophercloud/gophercloud/openstack/identity/v2/tenants"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/compute/v2/extensions/quotasets"
+	"github.com/yyf330/gophercloud/openstack/identity/v2/tenants"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestQuotasetGet(t *testing.T) {

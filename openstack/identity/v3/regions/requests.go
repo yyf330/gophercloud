@@ -1,8 +1,8 @@
 package regions
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to

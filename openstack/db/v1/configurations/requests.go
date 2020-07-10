@@ -1,9 +1,9 @@
 package configurations
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/db/v1/instances"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/openstack/db/v1/instances"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // List will list all of the available configurations.

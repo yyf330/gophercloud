@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/yyf330/gophercloud"
 )
 
 // UpdateResult is returned from a call to the Update function.

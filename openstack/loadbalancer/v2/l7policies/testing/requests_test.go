@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/l7policies"
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/openstack/loadbalancer/v2/l7policies"
+	fake "github.com/yyf330/gophercloud/openstack/networking/v2/common"
+	"github.com/yyf330/gophercloud/pagination"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestCreateL7Policy(t *testing.T) {

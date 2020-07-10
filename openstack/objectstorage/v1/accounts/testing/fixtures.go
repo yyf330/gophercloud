@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	th "github.com/yyf330/gophercloud/testhelper"
+	fake "github.com/yyf330/gophercloud/testhelper/client"
 )
 
 // HandleGetAccountSuccessfully creates an HTTP handler at `/` on the test handler mux that

@@ -1,8 +1,8 @@
 package floatingips
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of FloatingIPs.

@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/cdn/v1/base"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yyf330/gophercloud/openstack/cdn/v1/base"
+	th "github.com/yyf330/gophercloud/testhelper"
+	fake "github.com/yyf330/gophercloud/testhelper/client"
 )
 
 func TestGetHomeDocument(t *testing.T) {

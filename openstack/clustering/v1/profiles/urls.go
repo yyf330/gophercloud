@@ -1,6 +1,6 @@
 package profiles
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yyf330/gophercloud"
 
 var apiVersion = "v1"
 var apiName = "profiles"

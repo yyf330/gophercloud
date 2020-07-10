@@ -1,8 +1,8 @@
 package providers
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // Provider is the Octavia driver that implements the load balancing mechanism

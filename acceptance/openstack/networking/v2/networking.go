@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/portsecurity"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/portsecurity"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/networks"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/ports"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/subnets"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 // PortWithExtraDHCPOpts represents a port with extra DHCP options configuration.

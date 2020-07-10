@@ -1,6 +1,6 @@
 package testing
 
-import "github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/quotas"
+import "github.com/yyf330/gophercloud/openstack/networking/v2/extensions/quotas"
 
 const GetResponseRaw = `
 {

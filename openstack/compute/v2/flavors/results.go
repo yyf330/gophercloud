@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 type commonResult struct {

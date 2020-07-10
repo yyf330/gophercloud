@@ -3,9 +3,9 @@ package rbacpolicies
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/rbacpolicies"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/rbacpolicies"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 // CreateRBACPolicy will create a rbac-policy. An error will be returned if the

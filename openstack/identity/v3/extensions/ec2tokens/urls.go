@@ -1,6 +1,6 @@
 package ec2tokens
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yyf330/gophercloud"
 
 func ec2tokensURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("ec2tokens")

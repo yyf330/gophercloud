@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	floatingiptest "github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips/testing"
-	networktest "github.com/gophercloud/gophercloud/openstack/networking/v2/networks/testing"
-	porttest "github.com/gophercloud/gophercloud/openstack/networking/v2/ports/testing"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	fake "github.com/yyf330/gophercloud/openstack/networking/v2/common"
+	floatingiptest "github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/floatingips/testing"
+	networktest "github.com/yyf330/gophercloud/openstack/networking/v2/networks/testing"
+	porttest "github.com/yyf330/gophercloud/openstack/networking/v2/ports/testing"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 const NetworkCreateRequest = `

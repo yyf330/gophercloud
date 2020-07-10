@@ -1,8 +1,8 @@
 package policytypes
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // PolicyType represents a clustering policy type in the Openstack cloud.

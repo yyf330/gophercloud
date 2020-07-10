@@ -3,12 +3,12 @@ package layer3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	networking "github.com/yyf330/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestLayer3PortForwardingsCreateDelete(t *testing.T) {

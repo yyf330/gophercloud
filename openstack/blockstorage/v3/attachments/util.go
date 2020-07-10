@@ -1,7 +1,7 @@
 package attachments
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/yyf330/gophercloud"
 )
 
 // WaitForStatus will continually poll the resource, checking for a particular

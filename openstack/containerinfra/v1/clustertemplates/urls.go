@@ -1,7 +1,7 @@
 package clustertemplates
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/yyf330/gophercloud"
 )
 
 var apiName = "clustertemplates"

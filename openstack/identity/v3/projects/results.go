@@ -3,9 +3,9 @@ package projects
 import (
 	"encoding/json"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/internal"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/internal"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // Option is a specific option defined at the API to enable features

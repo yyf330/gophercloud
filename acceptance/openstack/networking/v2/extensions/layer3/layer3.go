@@ -3,17 +3,17 @@ package layer3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
 
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/routers"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/yyf330/gophercloud/openstack/networking/v2/ports"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 // CreateFloatingIP creates a floating IP on a given network and port. An error

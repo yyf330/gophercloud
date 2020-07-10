@@ -1,8 +1,8 @@
 package profiletypes
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 func Get(client *gophercloud.ServiceClient, id string) (r GetResult) {

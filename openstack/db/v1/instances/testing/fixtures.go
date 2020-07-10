@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/db/v1/datastores"
-	"github.com/gophercloud/gophercloud/openstack/db/v1/instances"
-	"github.com/gophercloud/gophercloud/testhelper/fixture"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/openstack/db/v1/datastores"
+	"github.com/yyf330/gophercloud/openstack/db/v1/instances"
+	"github.com/yyf330/gophercloud/testhelper/fixture"
 )
 
 var (

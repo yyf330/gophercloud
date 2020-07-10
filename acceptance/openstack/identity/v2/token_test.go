@@ -5,11 +5,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack"
+	"github.com/yyf330/gophercloud/openstack/identity/v2/tokens"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestTokenAuthenticate(t *testing.T) {

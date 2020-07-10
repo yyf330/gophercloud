@@ -3,17 +3,17 @@ package v3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/domains"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/extensions/trusts"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/groups"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/projects"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/regions"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/roles"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/services"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/users"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/domains"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/extensions/trusts"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/groups"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/projects"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/regions"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/roles"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/services"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/users"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 // CreateProject will create a project with a random name.

@@ -3,11 +3,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/dns/v2/recordsets"
-	"github.com/gophercloud/gophercloud/openstack/dns/v2/zones"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack/dns/v2/recordsets"
+	"github.com/yyf330/gophercloud/openstack/dns/v2/zones"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 // CreateRecordSet will create a RecordSet with a random name. An error will

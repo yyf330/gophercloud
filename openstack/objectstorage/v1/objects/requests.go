@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/accounts"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/openstack/objectstorage/v1/accounts"
+	"github.com/yyf330/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the List

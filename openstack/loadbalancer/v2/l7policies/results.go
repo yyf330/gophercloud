@@ -1,8 +1,8 @@
 package l7policies
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // L7Policy is a collection of L7 rules associated with a Listener, and which

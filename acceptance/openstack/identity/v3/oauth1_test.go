@@ -5,13 +5,13 @@ package v3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/extensions/oauth1"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/acceptance/clients"
+	"github.com/yyf330/gophercloud/acceptance/tools"
+	"github.com/yyf330/gophercloud/openstack"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/extensions/oauth1"
+	"github.com/yyf330/gophercloud/openstack/identity/v3/tokens"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestOAuth1CRUD(t *testing.T) {

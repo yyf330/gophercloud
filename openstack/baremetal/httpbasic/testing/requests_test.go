@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/baremetal/httpbasic"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yyf330/gophercloud/openstack/baremetal/httpbasic"
+	th "github.com/yyf330/gophercloud/testhelper"
 )
 
 func TestHttpBasic(t *testing.T) {

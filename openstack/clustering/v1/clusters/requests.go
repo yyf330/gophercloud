@@ -3,8 +3,8 @@ package clusters
 import (
 	"fmt"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yyf330/gophercloud"
+	"github.com/yyf330/gophercloud/pagination"
 )
 
 // AdjustmentType represents valid values for resizing a cluster.
