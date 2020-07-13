@@ -75,8 +75,8 @@ type Network struct {
 
 	// UpdatedAt and CreatedAt contain ISO-8601 timestamps of when the state of the
 	// network last changed, and when it was created.
-//	UpdatedAt time.Time `json:"-"`
-//	CreatedAt time.Time `json:"-"`
+	UpdatedAt string `json:"-"`
+	CreatedAt string `json:"-"`
 
 	// ProjectID is the project owner of the network.
 	ProjectID string `json:"project_id"`
@@ -105,8 +105,8 @@ func (r *Network) UnmarshalJSON(b []byte) error {
 	err := json.Unmarshal(b, &s1)
 	if err == nil {
 		*r = Network(s1.tmp)
-		r.CreatedAt = time.Time(s1.CreatedAt)
-		r.UpdatedAt = time.Time(s1.UpdatedAt)
+		//r.CreatedAt = time.Time(s1.CreatedAt)
+		//r.UpdatedAt = time.Time(s1.UpdatedAt)
 
 		return nil
 	}
@@ -124,8 +124,8 @@ func (r *Network) UnmarshalJSON(b []byte) error {
 	}
 
 	*r = Network(s2.tmp)
-	r.CreatedAt = time.Time(s2.CreatedAt)
-	r.UpdatedAt = time.Time(s2.UpdatedAt)
+	//r.CreatedAt = time.Time(s2.CreatedAt)
+	//r.UpdatedAt = time.Time(s2.UpdatedAt)
 
 	return nil
 }
