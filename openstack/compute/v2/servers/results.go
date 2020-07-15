@@ -215,6 +215,9 @@ type Server struct {
 	// AttachedVolumes includes the volume attachments of this instance
 	AttachedVolumes []AttachedVolume `json:"os-extended-volumes:volumes_attached"`
 
+	// az data get
+	AvailabilityZone string `json:"OS-EXT-AZ:availability_zone"`
+
 	// Fault contains failure information about a server.
 	Fault Fault `json:"fault"`
 
